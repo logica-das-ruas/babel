@@ -1,0 +1,5 @@
+class babelTest {
+    methotToConvert() {
+        alert('')
+    }
+}
