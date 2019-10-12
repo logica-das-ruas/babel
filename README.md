@@ -1,2 +1,2 @@
-# Babel + Webpack :globe_with_meridians:
+# Babel + Webpack :white_check_mark:
 Simple babel + webpack configuration for JS ES6.
