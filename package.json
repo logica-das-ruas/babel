@@ -4,7 +4,8 @@
   "description": "Simple babel configuration for JS ES6",
   "main": "index.js",
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w"
+    "dev": "babel ./main.js -o ./bundle.js -w",
+    "start": "webpack --mode-development -w"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,12 @@
     "url": "https://github.com/logica-das-ruas/babel/issues"
   },
   "homepage": "https://github.com/logica-das-ruas/babel#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3"
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
   }
 }

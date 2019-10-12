@@ -1,5 +1,3 @@
-class babelTest {
-    methotToConvert() {
-        alert('')
-    }
-}
+import { soma } from "./funcoes";
+
+console.log(soma(5, 5));

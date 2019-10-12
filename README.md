@@ -1,2 +1,2 @@
 # babel
-Simple babel configuration for JS ES6.
+Simple babel + webpack configuration for JS ES6.
