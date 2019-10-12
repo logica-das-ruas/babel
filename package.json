@@ -1,0 +1,24 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "Simple babel configuration for JS ES6",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logica-das-ruas/babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logica-das-ruas/babel/issues"
+  },
+  "homepage": "https://github.com/logica-das-ruas/babel#readme",
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
